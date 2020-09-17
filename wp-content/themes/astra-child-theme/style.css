@@ -12,3 +12,24 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachild
 */
+
+/* fixed top logo */
+.ast-flex.main-header-container {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.ast-site-identity {
+    position: fixed;
+    left: 40%;
+    top: 0.4em;
+}
+
+/* Linjer mellem/under menu punkterne i siden */
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.nocls {
+    border: 0;
+    z-index: 999;
+} 
+
