@@ -20,6 +20,7 @@
     z-index: 999;
 }
 
+/* header gik over vertical menu så fik lavet width til content width i WP og her bliver den så centreret */
 .ast-site-identity {
     position: fixed;
     left: 40%;
