@@ -16,21 +16,47 @@
 /* fixed top logo */
 .ast-flex.main-header-container {
     position: fixed;
-    width: 100%;
-    z-index: 999;
+  	z-index: 999;
 }
 
-/* header gik over vertical menu så fik lavet width til content width i WP og her bliver den så centreret */
+/* header */
 .ast-site-identity {
     position: fixed;
-    left: 40%;
-    top: 0.4em;
+    top: 0.5em;
+  	left: -1.1em;
 }
 
-/* Linjer mellem/under menu punkterne i siden */
 
+/* Linjer mellem/under menu punkterne i siden */
 li.menu-item.menu-item-type-post_type.menu-item-object-page.nocls {
     border: 0;
     z-index: 999;
 } 
+
+/* vertical menu i midten */
+.elementor-element.elementor-element-948185c.animated-slow.elementor-widget__width-auto.elementor-fixed.elementor-widget.elementor-widget-htmega-menu-verticle-menu.animated.fadeInLeft {
+    top: 50%;
+}
+
+
+
+
+/* Mobil design */
+
+
+/* menu til burger skjules i computer */
+@media only screen and (min-width: 600px) {
+.ast-main-header-bar-alignment {
+    display: none;
+}
+} 
+
+
+/* muligt at trykke p burger menu */
+.ast-button-wrap {
+    z-index: 25;
+}
+
+
+
 
